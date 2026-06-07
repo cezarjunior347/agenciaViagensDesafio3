@@ -47,6 +47,12 @@ Senha: 654321
 
 ## Executar o Projeto
 
+## Banco de Dados
+
+Executar o script: database/schema.sql
+antes de iniciar a aplicação.
+
+
 Compilar:
 
 ```bash
