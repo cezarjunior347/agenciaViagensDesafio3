@@ -55,15 +55,12 @@ antes de iniciar a aplicação.
 
 Compilar:
 
-```bash
 mvn clean compile
-```
+
 
 Executar:
 
-```bash
 mvn spring-boot:run
-```
 
 ## Autor
 
