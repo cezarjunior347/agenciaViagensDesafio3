@@ -25,7 +25,7 @@ Projeto desenvolvido para a disciplina de Desenvolvimento de Sistemas Web.
 
 ### ADMIN
 
-Pode acessar todos os endpoints da API.
+Possui acesso completo à API.
 
 ### USER
 
@@ -33,25 +33,37 @@ Pode consultar e avaliar destinos.
 
 ## Usuários para Teste
 
-ADMIN
+### ADMIN
 
-Usuário: admin
+Usuário: `admin`
 
-Senha: 123456
+Senha: `123456`
 
-USER
+### USER
 
-Usuário: usuario1
+Usuário: `usuario1`
 
-Senha: 654321
-
-## Executar o Projeto
+Senha: `654321`
 
 ## Banco de Dados
 
-Executar o script: database/schema.sql
-antes de iniciar a aplicação.
+Antes de executar a aplicação:
 
+1. Crie o banco PostgreSQL com o nome:
+
+agencia_viagens
+
+2. Execute o script:
+
+database/schema.sql
+
+Observação:
+
+Caso sua instalação do PostgreSQL utilize credenciais diferentes, ajuste os valores de `username` e `password` no arquivo:
+
+src/main/resources/application.properties
+
+## Executando o Projeto
 
 Compilar:
 
